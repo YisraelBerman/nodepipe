@@ -1,4 +1,11 @@
+name: Manual trigger
+
+on:
+  workflow_dispatch:
+
+
 name: Push image to Amazon ECR and deploy to ECS
+
 
 on:
   push:
