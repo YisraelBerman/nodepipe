@@ -1,0 +1,5 @@
+aws_region               = "us-east-1"
+ecs_task_definition_name = "node-app-runner"
+ecs_container_name       = "node-app"
+ecs_cluster_name         = "node-app-cluster"
+ecs_service_name         = "node-app-service"
